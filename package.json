@@ -2,13 +2,25 @@
 {
   "name": "euphoria-backend",
   "version": "1.0.0",
+  "description": "Express server for creating Stripe checkout sessions",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "node -e \"console.log('No tests specified')\""
+  },
+  "author": "Project Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/example/southafricaback.git"
+  },
+  "engines": {
+    "node": ">=16"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "stripe": "^11.0.0",
-    "cors": "^2.8.5"
+    "stripe": "^11.0.0"
   }
 }
